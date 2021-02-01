@@ -168,18 +168,133 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="16p-U1-Evv" customClass="CircleXibView" customModule="MiniGameI" customModuleProvider="target">
-                                <rect key="frame" x="48" y="187" width="100" height="100"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GID-MD-PeY" userLabel="Circle Xib View 1" customClass="CircleXibView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="39" y="103" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="J0B-3l-wN9" appends="YES" id="4XO-55-Xae"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zbF-b4-8EK" userLabel="Circle Xib View 2" customClass="CircleXibView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="280" y="103" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="D1f-KZ-aMi" appends="YES" id="m6x-42-6vR"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cfj-If-qPI" userLabel="Circle Xib View 4" customClass="CircleXibView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="280" y="316" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="N0l-vu-mPZ" appends="YES" id="BMz-u4-kYv"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f9L-ES-EPU" userLabel="Circle Xib View 6" customClass="CircleXibView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="280" y="507" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Pd1-oV-Z7e" appends="YES" id="cE8-hZ-XVk"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tg2-fE-fGb" userLabel="Circle Xib View 5" customClass="CircleXibView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="39" y="507" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ul4-L2-KIy" appends="YES" id="3DU-ai-qTR"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ck6-mB-6Fn" userLabel="Circle Xib View 3" customClass="CircleXibView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="39" y="316" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7sU-8c-apl" appends="YES" id="r4A-N6-Htf"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SfV-kY-BQh" userLabel="Circle Xib View 7" customClass="CircleXibView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="157" y="646" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="JOc-qW-8Cq" appends="YES" id="li2-Y7-YoW"/>
+                                </connections>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="csM-42-BgG"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <gestureRecognizers/>
                     </view>
                     <tabBarItem key="tabBarItem" title="With XiB" image="doc.fill" catalog="system" selectedImage="app.fill" id="yoW-ff-lYa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y9x-0G-Pec" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="J0B-3l-wN9" userLabel="Pan Gesture Recognizer 1">
+                    <connections>
+                        <action selector="panCCV1Action:" destination="EhJ-aP-MmV" id="eps-Ix-iX7"/>
+                        <outlet property="delegate" destination="EhJ-aP-MmV" id="fZq-7Y-vew"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="D1f-KZ-aMi" userLabel="Pan Gesture Recognizer 2">
+                    <connections>
+                        <action selector="panCCV2Action:" destination="EhJ-aP-MmV" id="ZB0-tz-BAs"/>
+                        <outlet property="delegate" destination="EhJ-aP-MmV" id="HW9-pg-b9b"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="7sU-8c-apl" userLabel="Pan Gesture Recognizer 3">
+                    <connections>
+                        <action selector="panCCV3Action:" destination="EhJ-aP-MmV" id="UmP-bS-gfv"/>
+                        <outlet property="delegate" destination="EhJ-aP-MmV" id="eJu-fv-MRI"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="N0l-vu-mPZ" userLabel="Pan Gesture Recognizer 4">
+                    <connections>
+                        <action selector="panCCV4Action:" destination="EhJ-aP-MmV" id="xpD-QA-TSY"/>
+                        <outlet property="delegate" destination="EhJ-aP-MmV" id="bkC-J2-sEg"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="ul4-L2-KIy" userLabel="Pan Gesture Recognizer 5">
+                    <connections>
+                        <action selector="panCCV5Action:" destination="EhJ-aP-MmV" id="cUE-FF-VyJ"/>
+                        <outlet property="delegate" destination="EhJ-aP-MmV" id="vbo-2r-Jiy"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Pd1-oV-Z7e" userLabel="Pan Gesture Recognizer 6">
+                    <connections>
+                        <action selector="panCCV6Action:" destination="EhJ-aP-MmV" id="YJU-En-BjI"/>
+                        <outlet property="delegate" destination="EhJ-aP-MmV" id="T79-bt-LRR"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="JOc-qW-8Cq" userLabel="Pan Gesture Recognizer 7">
+                    <connections>
+                        <action selector="panCCV7Action:" destination="EhJ-aP-MmV" id="JrU-GY-Cfr"/>
+                        <outlet property="delegate" destination="EhJ-aP-MmV" id="RIN-Ua-sFm"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1748" y="29"/>
         </scene>

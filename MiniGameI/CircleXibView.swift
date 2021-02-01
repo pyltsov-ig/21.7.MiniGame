@@ -43,6 +43,7 @@ import UIKit
         workingView = getFromXib()
         workingView.frame = bounds
         workingView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+       
         workingView.layer.cornerRadius = frame.size.height / 2
         
         addSubview(workingView)
