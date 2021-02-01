@@ -163,18 +163,25 @@
         <!--With XiB-->
         <scene sceneID="9PL-ni-Nv1">
             <objects>
-                <viewController title="With XiB" id="EhJ-aP-MmV" sceneMemberID="viewController">
+                <viewController title="With XiB" id="EhJ-aP-MmV" customClass="SecondViewController" customModule="MiniGameI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ILS-z9-Vth">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="16p-U1-Evv" customClass="CircleXibView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="48" y="187" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="csM-42-BgG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="With XiB" image="doc.fill" catalog="system" selectedImage="app.fill" id="yoW-ff-lYa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y9x-0G-Pec" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1740" y="47"/>
+            <point key="canvasLocation" x="1748" y="29"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="frP-9a-Bdg">
@@ -182,6 +189,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="3Cm-C1-U3d" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qva-8F-NV0">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>

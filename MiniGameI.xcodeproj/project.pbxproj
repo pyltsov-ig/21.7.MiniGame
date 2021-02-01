@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7822F03325C863E3003A4ECE /* CircleXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7822F03225C863E3003A4ECE /* CircleXibView.xib */; };
+		7822F03625C86459003A4ECE /* CircleXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7822F03525C86459003A4ECE /* CircleXibView.swift */; };
+		7822F03D25C869B0003A4ECE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7822F03C25C869B0003A4ECE /* SecondViewController.swift */; };
 		78854FA425C55750008BFDBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78854FA325C55750008BFDBC /* AppDelegate.swift */; };
 		78854FA625C55750008BFDBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78854FA525C55750008BFDBC /* SceneDelegate.swift */; };
 		78854FA825C55750008BFDBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78854FA725C55750008BFDBC /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7822F03225C863E3003A4ECE /* CircleXibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircleXibView.xib; sourceTree = "<group>"; };
+		7822F03525C86459003A4ECE /* CircleXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleXibView.swift; sourceTree = "<group>"; };
+		7822F03C25C869B0003A4ECE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		78854FA025C55750008BFDBC /* MiniGameI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniGameI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78854FA325C55750008BFDBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78854FA525C55750008BFDBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				78854FAE25C55753008BFDBC /* LaunchScreen.storyboard */,
 				78854FB125C55753008BFDBC /* Info.plist */,
 				78854FB825C55B3F008BFDBC /* CircleCodeView.swift */,
+				7822F03225C863E3003A4ECE /* CircleXibView.xib */,
+				7822F03525C86459003A4ECE /* CircleXibView.swift */,
+				7822F03C25C869B0003A4ECE /* SecondViewController.swift */,
 			);
 			path = MiniGameI;
 			sourceTree = "<group>";
@@ -129,6 +138,7 @@
 			files = (
 				78854FB025C55753008BFDBC /* LaunchScreen.storyboard in Resources */,
 				78854FAD25C55753008BFDBC /* Assets.xcassets in Resources */,
+				7822F03325C863E3003A4ECE /* CircleXibView.xib in Resources */,
 				78854FAB25C55750008BFDBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7822F03D25C869B0003A4ECE /* SecondViewController.swift in Sources */,
 				78854FA825C55750008BFDBC /* ViewController.swift in Sources */,
 				78854FA425C55750008BFDBC /* AppDelegate.swift in Sources */,
+				7822F03625C86459003A4ECE /* CircleXibView.swift in Sources */,
 				78854FA625C55750008BFDBC /* SceneDelegate.swift in Sources */,
 				78854FB925C55B3F008BFDBC /* CircleCodeView.swift in Sources */,
 			);
