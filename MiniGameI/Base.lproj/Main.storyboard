@@ -1,24 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MiniGameI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KS7-mC-GLr" userLabel="Circle Code View 2" customClass="CircleCodeView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="294" y="187" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="h8p-HL-B8V" appends="YES" id="emr-PA-nPo"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h8a-j0-QOH" userLabel="Circle Code View 4" customClass="CircleCodeView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="157" y="398" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="TJ9-Gq-yBB" appends="YES" id="mSH-AD-KjD"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LfJ-EZ-qS8" userLabel="Circle Code View 5" customClass="CircleCodeView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="294" y="398" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="EfN-pF-EzF" appends="YES" id="naT-JB-xKA"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ILC-rx-BPj" userLabel="Circle Code View 3" customClass="CircleCodeView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="20" y="398" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Ji3-OW-L7M" appends="YES" id="9ir-u8-eQ5"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5zg-N7-UJE" userLabel="Circle Code View 7" customClass="CircleCodeView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="294" y="607" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ssa-bf-DOf" userLabel="Circle Code View 1" customClass="CircleCodeView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="20" y="187" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="2fN-nF-5fI" appends="YES" id="GcS-Md-bIj"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cgP-TG-P9v" userLabel="Circle Code View 6" customClass="CircleCodeView" customModule="MiniGameI" customModuleProvider="target">
+                                <rect key="frame" x="20" y="607" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="go5-oe-xAo" appends="YES" id="VcL-7e-9tF"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                     </view>
+                    <connections>
+                        <outlet property="CCV1" destination="Ssa-bf-DOf" id="t4t-Su-A31"/>
+                        <outlet property="CCV2" destination="KS7-mC-GLr" id="qnu-aJ-HXN"/>
+                        <outlet property="CCV3" destination="ILC-rx-BPj" id="Rs0-V4-RFt"/>
+                        <outlet property="CCV4" destination="h8a-j0-QOH" id="o5O-2U-eKt"/>
+                        <outlet property="CCV5" destination="LfJ-EZ-qS8" id="Ada-Jv-89s"/>
+                        <outlet property="CCV6" destination="cgP-TG-P9v" id="wmM-Ed-2sO"/>
+                        <outlet property="CCV7" destination="5zg-N7-UJE" id="DYC-E7-0Vi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="2fN-nF-5fI" userLabel="Pan Gesture Recognizer 1">
+                    <connections>
+                        <action selector="panCCV1Action:" destination="BYZ-38-t0r" id="wB8-W7-ykR"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="dbn-8v-NBe"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="h8p-HL-B8V" userLabel="Pan Gesture Recognizer 2">
+                    <connections>
+                        <action selector="panCCV2Action:" destination="BYZ-38-t0r" id="Kaq-AH-QZp"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="TgI-em-Pgi"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Ji3-OW-L7M" userLabel="Pan Gesture Recognizer 3">
+                    <connections>
+                        <action selector="panCCV3Action:" destination="BYZ-38-t0r" id="uVK-9O-afS"/>
+                        <outlet property="delegate" destination="ILC-rx-BPj" id="oGq-Y0-KyY"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="TJ9-Gq-yBB" userLabel="Pan Gesture Recognizer 4">
+                    <connections>
+                        <action selector="panCCV4Action:" destination="BYZ-38-t0r" id="oax-2u-47a"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="xvE-jY-0Vm"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="EfN-pF-EzF" userLabel="Pan Gesture Recognizer 5">
+                    <connections>
+                        <action selector="panCCV5Action:" destination="BYZ-38-t0r" id="DIQ-sT-r4N"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="1cH-hO-xpa"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="go5-oe-xAo" userLabel="Pan Gesture Recognizer 6">
+                    <connections>
+                        <action selector="panCCV6Action:" destination="BYZ-38-t0r" id="HZ6-DT-3cJ"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="cIb-k2-c8Q"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="eA5-ba-abg" userLabel="Pan Gesture Recognizer 7">
+                    <connections>
+                        <action selector="panCCV7Action:" destination="BYZ-38-t0r" id="hjH-bM-qyc"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="pa2-v8-QrP"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="139" y="30"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

@@ -13,6 +13,7 @@
 		78854FAB25C55750008BFDBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78854FA925C55750008BFDBC /* Main.storyboard */; };
 		78854FAD25C55753008BFDBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78854FAC25C55753008BFDBC /* Assets.xcassets */; };
 		78854FB025C55753008BFDBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78854FAE25C55753008BFDBC /* LaunchScreen.storyboard */; };
+		78854FB925C55B3F008BFDBC /* CircleCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78854FB825C55B3F008BFDBC /* CircleCodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		78854FAC25C55753008BFDBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78854FAF25C55753008BFDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78854FB125C55753008BFDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78854FB825C55B3F008BFDBC /* CircleCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				78854FAC25C55753008BFDBC /* Assets.xcassets */,
 				78854FAE25C55753008BFDBC /* LaunchScreen.storyboard */,
 				78854FB125C55753008BFDBC /* Info.plist */,
+				78854FB825C55B3F008BFDBC /* CircleCodeView.swift */,
 			);
 			path = MiniGameI;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				78854FA825C55750008BFDBC /* ViewController.swift in Sources */,
 				78854FA425C55750008BFDBC /* AppDelegate.swift in Sources */,
 				78854FA625C55750008BFDBC /* SceneDelegate.swift in Sources */,
+				78854FB925C55B3F008BFDBC /* CircleCodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7G4QKU6FCL;
 				INFOPLIST_FILE = MiniGameI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7G4QKU6FCL;
 				INFOPLIST_FILE = MiniGameI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
