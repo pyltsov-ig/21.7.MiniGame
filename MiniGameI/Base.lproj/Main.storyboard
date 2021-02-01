@@ -251,6 +251,15 @@
                         <gestureRecognizers/>
                     </view>
                     <tabBarItem key="tabBarItem" title="With XiB" image="doc.fill" catalog="system" selectedImage="app.fill" id="yoW-ff-lYa"/>
+                    <connections>
+                        <outlet property="CCV1" destination="GID-MD-PeY" id="U5B-qr-UJs"/>
+                        <outlet property="CCV2" destination="zbF-b4-8EK" id="Frq-2B-eV6"/>
+                        <outlet property="CCV3" destination="Ck6-mB-6Fn" id="tKk-oL-SQ0"/>
+                        <outlet property="CCV4" destination="cfj-If-qPI" id="aNw-8D-JFX"/>
+                        <outlet property="CCV5" destination="tg2-fE-fGb" id="rd0-nj-jZQ"/>
+                        <outlet property="CCV6" destination="f9L-ES-EPU" id="ghe-qq-udI"/>
+                        <outlet property="CCV7" destination="SfV-kY-BQh" id="Rcw-my-Orj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y9x-0G-Pec" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="J0B-3l-wN9" userLabel="Pan Gesture Recognizer 1">
