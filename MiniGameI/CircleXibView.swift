@@ -52,14 +52,13 @@ import UIKit
     
     func changeColor(){
        // layer.backgroundColor = CGColor(
-        layer.backgroundColor = CGColor(red: .random(in: 0...2), green: .random(in: 0...2), blue: .random(in: 0...2), alpha: 1.0)
+        workingView.layer.backgroundColor = CGColor(red: .random(in: 0...2), green: .random(in: 0...2), blue: .random(in: 0...2), alpha: 1.0)
     }
 
     func setSize(radius:CGFloat) {
         workingView.frame.size.width = radius
         workingView.frame.size.height = radius
         setCircle(radius: radius)
-        //layer.cornerRadius = frame.height / 2
     }
     
     func setCircle(radius:CGFloat) {
