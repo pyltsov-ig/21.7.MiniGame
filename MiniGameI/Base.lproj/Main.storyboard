@@ -72,6 +72,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="eA5-ba-abg" appends="YES" id="4lJ-Hp-iCN"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ssa-bf-DOf" userLabel="Circle Code View 1" customClass="CircleCodeView" customModule="MiniGameI" customModuleProvider="target">
                                 <rect key="frame" x="20" y="187" width="100" height="100"/>
