@@ -21,8 +21,22 @@ import UIKit
     
     func setSize(radius:CGFloat) {
        
-        self.frame.size.height = radius
-        self.frame.size.width = radius
+        //let oldWidth = self.frame.width
+        //let oldHeeight = self.frame.height
+        
+//        UIView.animate(withDuration: 3.0) {
+//            self.transform = self.transform.scaledBy(x: 1.3, y: 1.3)
+//        }
+        
+        let animation = CABasicAnimation(keyPath: "cornerRadius")
+        animation.duration = 3.0
+        animation.fromValue = self.layer.cornerRadius
+        animation.toValue = self.layer.cornerRadius*1.2
+        self.layer.add(animation, forKey: nil)
+        UIView.animate(withDuration: 2.0, animations: {self.frame.size.height = radius
+                                                        self.frame.size.width = radius})
+        
+        
         setCircle(radius: radius)
        
         //layer.cornerRadius = frame.height / 2

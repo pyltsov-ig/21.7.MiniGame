@@ -52,12 +52,23 @@ import UIKit
     
     func changeColor(){
        // layer.backgroundColor = CGColor(
-        workingView.layer.backgroundColor = CGColor(red: .random(in: 0...2), green: .random(in: 0...2), blue: .random(in: 0...2), alpha: 1.0)
+        let bgColor = CGColor(red: .random(in: 0...2), green: .random(in: 0...2), blue: .random(in: 0...2), alpha: 1.0)
+        UIView.animate(withDuration: 2, animations: {self.backgroundColor = UIColor(cgColor: bgColor)})
     }
 
     func setSize(radius:CGFloat) {
-        workingView.frame.size.width = radius
-        workingView.frame.size.height = radius
+        let animation = CABasicAnimation(keyPath: "cornerRadius")
+        animation.duration = 3.0
+        animation.fromValue = self.layer.cornerRadius
+        animation.toValue = self.layer.cornerRadius*1.2
+        self.layer.add(animation, forKey: nil)
+        UIView.animate(withDuration: 2.0, animations: {self.frame.size.height = radius
+                                                        self.frame.size.width = radius})
+        
+ 
+        
+//        workingView.frame.size.width = radius
+//        workingView.frame.size.height = radius
         setCircle(radius: radius)
     }
     
